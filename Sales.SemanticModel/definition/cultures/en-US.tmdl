@@ -5873,9 +5873,7 @@ cultureInfo en-US
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "state": {
-			            "State": "Generated"
-			          }
+			          "": {}
 			        },
 			        {
 			          "state or province": {
@@ -7853,9 +7851,7 @@ cultureInfo en-US
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "state": {
-			            "State": "Generated"
-			          }
+			          "": {}
 			        },
 			        {
 			          "location": {
@@ -8496,6 +8492,48 @@ cultureInfo en-US
 			              "Agent": "OfficeThesaurus"
 			            },
 			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "parameter__measure.parameter__measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parameter - Measure",
+			          "ConceptualProperty": "Parameter - Measure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Measure": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "parameter__dimension.parameter__dimension": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parameter - Dimension",
+			          "ConceptualProperty": "Parameter - Dimension"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Dimension": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
